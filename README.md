@@ -31,8 +31,9 @@ Take care to round your cents to the nearest penny, as with round, which is decl
 
 '''
 int cents = round(dollars * 100);
-will safely convert 0.20 (or even 0.200000002980232238769531250) to 20.
 '''
+
+will safely convert 0.20 (or even 0.200000002980232238769531250) to 20.
 
 Your program should behave per the examples below.
 '''
