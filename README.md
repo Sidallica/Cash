@@ -28,7 +28,7 @@ So that we can automate some tests of your code, be sure that your program’s l
 Beware the inherent imprecision of floating-point values. Recall floats.c from class, wherein, if x is 2, and y is 10, x / y is not precisely two tenths! And so, before making change, you’ll probably want to convert the user’s inputted dollars to cents (i.e., from a float to an int) to avoid tiny errors that might otherwise add up!
 
 Take care to round your cents to the nearest penny, as with round, which is declared in math.h. For instance, if dollars is a float with the user’s input (e.g., 0.20), then code like
-
+```
 
 int cents = round(dollars * 100);
 
@@ -44,3 +44,4 @@ Change owed: -0.41
 Change owed: foo
 Change owed: 0.41
 4
+```
