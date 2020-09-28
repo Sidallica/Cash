@@ -29,14 +29,13 @@ Beware the inherent imprecision of floating-point values. Recall floats.c from c
 
 Take care to round your cents to the nearest penny, as with round, which is declared in math.h. For instance, if dollars is a float with the user’s input (e.g., 0.20), then code like
 
-'''
+
 int cents = round(dollars * 100);
-'''
+
 
 will safely convert 0.20 (or even 0.200000002980232238769531250) to 20.
 
 Your program should behave per the examples below.
-'''
 $ ./cash
 Change owed: 0.41
 4
@@ -45,4 +44,3 @@ Change owed: -0.41
 Change owed: foo
 Change owed: 0.41
 4
-'''
