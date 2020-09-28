@@ -1,5 +1,6 @@
 # Cash
 ## CS50 Problem
+This problem can be found at OpenCourseWare CS50 
 
 A program that prints the minimum number of coins with which a change can be made.
 
